@@ -1,0 +1,26 @@
+
+.tailieu-tit{
+   
+   
+    position: relative;
+    margin-top: 5px;
+    border-top: 40px solid black;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent; 
+   
+    height: 20px;
+    width: 280px;
+    
+    
+   
+    }
+     /* width: 100px;  */
+    .tailieu-tit::after{
+        content: 'Tin tức';
+        font-size: 16px;
+        position: absolute;
+        top: -30px;
+        left: 100px;
+        color: white;
+    }
+   

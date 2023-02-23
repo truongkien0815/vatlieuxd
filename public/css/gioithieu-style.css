@@ -1,0 +1,22 @@
+
+.gioithieu-tit{
+   
+   
+    position: relative;
+    margin-top: 5px;
+    border-top: 40px solid #0096c8;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent; 
+    height: 20px;
+    width: 280px;
+    
+    
+    /* width: 100px;  */
+    }
+    .gioithieu-tit::after{
+        content: 'Giới thiệu';
+        position: absolute;
+        top: -30px;
+        right: 20px;
+        color: white;
+    }
