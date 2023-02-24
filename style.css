@@ -1,11 +1,25 @@
 
+@media only screen and  (max-width:1000px) {
+  .slider {
+    background: black;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 400px;
+  }
+  .slidee{
+    
+  }
+}
 .slider {
-  background: white;
-  height: 250px;
+  background: black;
+  height: 140px;
+ 
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 1140px;
+  width: 1000px;
 }
 
 .slider::before, .slider::after {
