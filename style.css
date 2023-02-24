@@ -1,19 +1,19 @@
-
+/* 
 @media only screen and  (max-width:1000px) {
   .slider {
-    background: black;
+    background: white;
     height: 100px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    max-width: 400px;
+    max-width: 100%;
   }
   .slidee{
     
   }
 }
 .slider {
-  background: black;
+  background: white;
   height: 140px;
  
   margin: auto;
@@ -73,4 +73,4 @@
   100% {
       transform: translateX(calc(-250px * 9));
   }
-}
+} */

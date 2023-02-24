@@ -26,11 +26,53 @@
 
 
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" > -->
+ 
 </head>
 
 <body>
-  
+ 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
   <header>
+
+
     <div class="banner"><img src="public/img/banner-4739.png" width="100%" alt=""></div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border: 1px gray solid;padding: 0; ">
       <div class="container-fluid" style="padding: 4px; background: url(public/img/menu.png);">
@@ -42,26 +84,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" style="margin-left: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">TRANG CHỦ</a>
+              <a class="nav-link active text-white  rounded-pill" aria-current="page" href="index.html"><b>TRANG CHỦ</b></a>
             </li>
           
             <li class="nav-item">
-              <a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a>
+              <a class="nav-link text-white rounded-pill" href="gioithieu.html"><b>GIỚI THIỆU</b></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white rounded-pill dropdown-toggle " href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SẢN PHẨM
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="product.html">SẢN PHẨM</a>
+              <a class="nav-link text-white rounded-pill" href="document.html"><b>TÀI LIỆU</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="document.html">TÀI LIỆU</a>
+              <a class="nav-link text-white rounded-pill" href="dichvu.html"><b>DỊCH VỤ</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="dichvu.html">DỊCH VỤ</a>
+              <a class="nav-link text-white rounded-pill" href="tuyendung.html"><b>TUYỂN DỤNG</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tuyendung.html">TUYỂN DỤNG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+              <a class="nav-link text-white rounded-pill" href="lienhe.html"><b>LIÊN HỆ</b></a>
             </li>
             <li class="nav-item search">
               <div id="search">
@@ -78,13 +129,14 @@
                 position: relative;
                 left: 340px;
                 top: 8px;
+            
               }
             </style>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="chungnhan row" style="border: 1px gray solid;">
+    <div class="chungnhan row" style="border: 1px gray solid; margin-right: 0;">
       <div class="col-md-2" style="padding-left: 50px; padding-top: 15px;">
         <div class="chungnhan1"><img src="public/img/111-9659.JPG" alt=""></div>
         <div class="chungnhan2"><img src="public/img/111-9659.JPG" alt=""></div>
@@ -279,132 +331,7 @@
       <button id="prev"> < </button>
       <button id="next"> > </button>
   </div>
-      <!-- <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-       
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-         
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-         
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/images-1779.png" class="img-fluid" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-    
-          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>  -->
+  
      
     </div>
     <style>
@@ -447,6 +374,7 @@ object-fit: cover;
 border-radius: 20px;
 /* box-shadow: 0 10px 15px #7e878d; */
 }
+
 .item .content{
 padding:30px;
 font-family: monospace;
@@ -534,167 +462,56 @@ document.getElementById('formList').scrollLeft -= widthItem;
     </div>
     <div class="col-md-3">
       <div style=" padding:  10px 0px 15px; color: #0043bd ;    font-size: 20px;font-family: 'myFont1';    line-height: 30px; background: url('public/img/dot2.png') repeat-x center">Thư viện ảnh</div>
-      <div><img src="public/img/11610-4298.jpg" alt=""></div>
+      <div><img src="public/img/11610-4298.jpg" width="100%" alt=""></div>
     </div>
   </div>
 
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-       
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-         
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-         
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/images-1779.png" class="img-fluid" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="public/img/netflix_web_logo-6895.png" alt="">
-                    </div>
-
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-    
-          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>  -->
+ 
   
-  <div class="slider">
-    <div class="slide-track">
-        <div class="slidee"><img height="130" width="150" src="public/img/netflix_web_logo-6895.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/images-1779.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/dt1-1277.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/tai-xuong-6761.jpg" alt=""></div>
-
-        <div class="slidee"><img height="130" width="150" src="public/img/netflix_web_logo-6895.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/images-1779.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/dt1-1277.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/tai-xuong-6761.jpg" alt=""></div>
+ 
     
-        <div class="slidee"><img height="130" width="150" src="public/img/netflix_web_logo-6895.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/images-1779.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/dt1-1277.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/tai-xuong-6761.jpg" alt=""></div>
+<div class="container">
+  <!-- <h2 class="text-center font-weight-bold">Our Partners</h2> -->
 
-        <div class="slidee"><img height="130" width="150" src="public/img/netflix_web_logo-6895.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/images-1779.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/dt1-1277.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/tai-xuong-6761.jpg" alt=""></div>
-        
-        <!-- <div class="slidee"><img height="130" width="150" src="public/img/netflix_web_logo-6895.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/images-1779.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/dt1-1277.png" alt=""></div>
-        <div class="slidee"><img height="130" width="150" src="public/img/tai-xuong-6761.jpg" alt=""></div> -->
-       
-    </div>
+  <section class="customer-logos slider">
+      <div class="slide"><img src="public/img/netflix_web_logo-6895.png" alt="logo"></div>
+      <div class="slide"><img src="public/img/images-1779.png" alt="logo"></div>
+      <div class="slide"><img src="public/img/dt1-1277.png" alt="logo"></div>
+      <div class="slide"><img src="public/img/tai-xuong-6761.jpg" alt="logo"></div>
+      <div class="slide"><img src="public/img/netflix_web_logo-6895.png" alt="logo"></div>
+      <div class="slide"><img src="public/img/images-1779.png" alt="logo"></div>
+      <div class="slide"><img src="public/img/dt1-1277.png" alt="logo"></div>
+      <div class="slide"><img src="public/img/tai-xuong-6761.jpg" alt="logo"></div>
+     
+  </section>
 </div>
+
+<script>
     
+  $(document).ready(function(){
+      $('.customer-logos').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          arrows: false,
+          dots: false,
+          pauseOnHover:false,
+          responsive: [{
+              breakpoint: 768,
+              setting: {
+                  slidesToShow:4
+              }
+          }, {
+              breakpoint: 520,
+              setting: {
+                  slidesToShow: 3
+              }
+          }]
+      });
+  });
+
+  </script>
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary" style=" border: 1px white solid;padding: 0; ">
     <div class="container-fluid" style="padding: 4px; background: #0096c8;">
@@ -795,9 +612,11 @@ document.getElementById('formList').scrollLeft -= widthItem;
   <script src="public/js/script.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
  
   <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </body>
 
 </html>

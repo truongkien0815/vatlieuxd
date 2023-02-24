@@ -5,8 +5,12 @@ body
   
 
 }
+.nav-link{
+    color: white;
+}
 .nav-link:hover{
     background: orangered;
+    border: 1px solid orangered;
     
                   }
 
@@ -286,7 +290,10 @@ width: 90px;
 height: 90px;
 }
 
-sp-main>img{
+.list-sp{
+ text-align: center;
+}
+.sp-main>img{
    width: 100%;
    
    
@@ -339,12 +346,12 @@ background-color: #ffffff;
 
 
     .slider {
-        background: #212529;
+     
         height: 100px;
         margin: auto;
         overflow: hidden;
         position: absolute;
-        width: 400px;
+        width: 330px;
     }
 
 
