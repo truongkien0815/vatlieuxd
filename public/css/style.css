@@ -1,3 +1,10 @@
+
+body
+{
+  overflow-x: hidden;
+  
+
+}
 .nav-link:hover{
     background: orangered;
     
@@ -37,11 +44,12 @@
     position: absolute;
     color: white;
 }
-.image-sp-chinh{
-    top: 70px;
-    left: 85px;
+.image-sp-chinh>#formList{
+    top: 50px;
+    left: 150px;
     position: absolute;
 }
+
 .left-titl{
     position: relative;
 }
@@ -249,3 +257,23 @@ body {
  /* slide */
 
  
+
+
+ /*  reponsiti*/
+ @media only screen and  (max-width:1000px) {
+    .chungnhan1{
+        text-align: center;
+    }
+    .chungnhan2{
+        text-align: center;
+    }
+    .carousel-inner{
+        text-align: center;
+    }
+   .scoll{
+    text-align: center;
+   }
+ .spmain{
+    
+ }
+ }
