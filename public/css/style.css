@@ -17,14 +17,14 @@ body
 .left-titl::after{
     content: ' HỖ TRỢ TRỰC TUYẾN';
     top: 20px;
-    left: 50px;
+    left: 90px;
     position: absolute;
     color: white;
 }
 .left-titl3::after{
     content: ' LIÊN KẾT WEB';
-    top: 20px;
-    left: 50px;
+    top: 25px;
+    left: 60px;
     position: absolute;
     color: white;
 }
@@ -32,7 +32,7 @@ body
 {
     content: ' SẢN PHẨM NỔI BẬT';
     top: 20px;
-    left: 50px;
+    left: 60px;
     position: absolute;
     color: white;
 }
@@ -266,6 +266,17 @@ body {
  /*  reponsiti*/
  @media only screen and  (max-width:1000px) {
     .chungnhan1{
+        display: none;
+    }
+    .chungnhan2{
+        display: none;
+    }
+    img.avatar {
+        margin: 1px 10px 10px 8px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .chungnhan1{
         text-align: center;
     }
     .chungnhan2{
@@ -312,7 +323,7 @@ height: 90px;
   
     content: 'Nhóm sản phẩm chính';
     top: -2px;
-    left: 160px;
+    left: 140px;
    font-size: 10px;
     position: absolute;
     color: white;
@@ -345,14 +356,93 @@ background-color: #ffffff;
 
 
 
+    
+    .container-fluid{
+       
+        
+        background-image: none !important;
+        object-fit: contain;
+        color: black;
+        
+     }
+     .nav-item{
+        background: red;
+     }
+     .nav-link{
+       
+     }
+     .text-white {
+        --bs-text-opacity: 1;
+        color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+    }
+    .slick-slide img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
     .slider {
      
         height: 100px;
         margin: auto;
         overflow: hidden;
         position: absolute;
-        width: 330px;
+        width: 400px;
     }
+    .titlt{
+   
+   
+        position: relative;
+        margin-top: 5px;
+        border-top: 40px solid #0096c8;
+        border-left: 0px solid transparent;
+        border-right: 20px solid transparent; 
+        height: 20px;
+        left: 50px;
+        width: 280px;
+        
+        
+        
+        }
+        .titlte{
+            position: relative;
+            margin-top: 5px;
+            border-top: 40px solid red;
+            border-left: -10px solid transparent;
+            border-right: 20px solid transparent; 
+            height: 20px;
+            width: 270px;
+            left: 50px;
+        }
 
+        .titlta{
+            position: relative;
+        margin-top: 5px;
+        border-top: 40px solid #0096c8;
+        border-left: -10px solid transparent;
+        border-right: 20px solid transparent; 
+        left: 50px;
+        height: 20px;
+        width: 280px;
+        }
 
+        .left-titl3::after{
+            content: ' LIÊN KẾT WEB';
+            top: 25px;
+            left: 100px;
+            position: absolute;
+            color: white;
+        }
+        .left-titl2::after
+        {
+            content: ' SẢN PHẨM NỔI BẬT';
+            top: 20px;
+            left: 100px;
+            position: absolute;
+            color: white;
+        }
+    .thongtin{
+       
+       margin-left: 50px;
+    }
+  
  }

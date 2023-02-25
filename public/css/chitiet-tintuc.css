@@ -95,5 +95,22 @@
   }
   
   
+  @media only screen and  (max-width:1000px) {
+    .gioithieu-tit{
 
+
+      left: 50px;
+      
+      
+    
+      }
+    .thontin-ss{
+
+margin-left: 30px;
+    }
+    .thongtin-detailw> .col-12
+    {
+      margin-left: 20px;
+    }
+    }
   

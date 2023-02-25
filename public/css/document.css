@@ -23,4 +23,29 @@
         left: 100px;
         color: white;
     }
+    @media only screen and  (max-width:1000px) {
+
+        .thongtin-detailw>.col-2 img{
+           height: 70px;
+           width: 70px;
+        }
+
+        .tailieu-tit{
    
+   
+            position: relative;
+            margin-top: 5px;
+            border-top: 40px solid black;
+            border-left: 0px solid transparent;
+            border-right: 20px solid transparent; 
+           left: 50px;
+            height: 20px;
+            width: 280px;
+            
+            
+           
+            }
+            
+            
+        
+    }

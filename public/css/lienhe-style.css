@@ -20,3 +20,27 @@
         right: 20px;
         color: white;
     }
+
+    @media only screen and  (max-width:1000px) {
+
+       
+        .lienhe-tit{
+           
+          left: 50px;
+          
+           
+            }
+            .thongtin-detailw > .col-6
+            {
+                width: auto;
+               border: none !important;
+            }
+            .thongtin-detailw > .frm_lienhe
+            {
+                /* width: 500px; */
+
+              
+            }
+           
+
+            }

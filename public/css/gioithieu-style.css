@@ -9,6 +9,7 @@
     border-right: 20px solid transparent; 
     height: 20px;
     width: 280px;
+    left: 50px;
     
     
     /* width: 100px;  */
@@ -19,4 +20,17 @@
         top: -30px;
         right: 20px;
         color: white;
+    }
+
+    @media only screen and  (max-width:1000px) {
+
+        .thongtin-detailw>.col-2{
+           height: 100px;
+           width: 100px;
+           margin-left: 80px;
+        }
+        .thongtin-detailw>.col-10{
+          
+            margin-left: 40px;
+         }
     }

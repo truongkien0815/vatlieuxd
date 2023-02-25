@@ -94,4 +94,30 @@
         color: #fefefe;
       }
       
+
+      @media only screen and  (max-width:1000px) {
+        .gioithieu-tit{
+   
+   
+          left: 50px;
+          
+          
+        
+          }
+          .thongtin-detailw > .col-3{
+width: auto;
+margin-left: 50px;
+          }
+          .thongtin-detailw > .col-3> img{
+            width: 280px;
+           
+                      }
+.thongtin-sp{
+margin-left: 20px;
+}
+.sp-cungloai-detail> .card{
+margin-left: 50px;
+
+}
+      }
       
