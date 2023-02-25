@@ -74,7 +74,7 @@
             <li class="nav-item">
               <a class="nav-link text-white rounded-pill" href="lienhe.html"><b>LIÊN HỆ</b></a>
             </li>
-            <li class="nav-item search">
+            <li class="search">
               <div id="search">
                 <input type="text" name="keyword" id="keyword"
                   onblur="textboxChange(this,false,'Nhập từ khóa tìm kiếm...')"
@@ -87,8 +87,10 @@
             <style>
               .search {
                 position: relative;
-                left: 340px;
+                left: 300px;
                 top: 8px;
+             
+          
             
               }
             </style>
@@ -127,6 +129,7 @@
     </div>
   </header>
 
+<div class="container-fluid">
   <div class="list-sp row p-3">
     <div class="col-md-3">
       <div class="left-titl"><img src="public/img/left_titl.png" alt=""></div>
@@ -242,7 +245,7 @@ px
 
    
 
-  </div>
+  <!-- </div> -->
 
   <div class="list-sp row p-3 ">
     <div class="col-md-3">
@@ -463,12 +466,14 @@ document.getElementById('formList').scrollLeft -= widthItem;
     </div>
   </div>
 
+</div>
   
 
 <div class="container">
   <!-- <h2 class="text-center font-weight-bold">Our Partners</h2> -->
 
-  <section class="customer-logos slider">
+  <div class="f">
+    <section class="customer-logos slider">
       <div class="slide"><img src="public/img/netflix_web_logo-6895.png" alt="logo"></div>
       <div class="slide"><img src="public/img/images-1779.png" alt="logo"></div>
       <div class="slide"><img src="public/img/dt1-1277.png" alt="logo"></div>
@@ -479,6 +484,7 @@ document.getElementById('formList').scrollLeft -= widthItem;
       <div class="slide"><img src="public/img/tai-xuong-6761.jpg" alt="logo"></div>
      
   </section>
+  </div>
 </div>
 
 <script>
@@ -544,6 +550,7 @@ document.getElementById('formList').scrollLeft -= widthItem;
     </div>
   </nav>
 
+<div class="container-fluid" style="background: #0096c8;">
   <footer style="background: #0096c8;">
     <div class="foote row">
       <div class="col-md-3">
@@ -601,6 +608,7 @@ document.getElementById('formList').scrollLeft -= widthItem;
     <div class="nguon" style=" border: 1px white solid;color: white; ">Đang online: 7 | Truy cập tuần: 162 | Truy cập
       tháng: 162 | Tổng truy cập: 332035</div>
   </footer>
+</div>
   
 <script src="d.js"></script>
   <script src="public/js/script.js"></script>

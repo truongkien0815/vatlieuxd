@@ -1,4 +1,6 @@
 
+
+
 body
 {
   overflow-x: hidden;
@@ -17,7 +19,7 @@ body
 .left-titl::after{
     content: ' HỖ TRỢ TRỰC TUYẾN';
     top: 20px;
-    left: 90px;
+    left: 50px;
     position: absolute;
     color: white;
 }
@@ -444,5 +446,35 @@ background-color: #ffffff;
        
        margin-left: 50px;
     }
-  
+    body
+{
+
+
+}
+
+body
+{
+   
+  overflow-x: hidden;
+
+
+}
+  /* .img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  } */
+  .f{
+    display: none;
+  }
+ .search{
+   margin-left: -310px;
+   margin-top: -10px;
+   padding: 10px;
+ 
+ }
+ #search input {
+    width: auto;
+   
+ }
  }
