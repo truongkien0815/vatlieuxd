@@ -79,7 +79,7 @@
             <li class="nav-item">
               <a class="nav-link text-white rounded-pill" href="lienhe.html"><b>LIÊN HỆ</b></a>
             </li>
-            <li class="search">
+            <!-- <li class="search">
               <div id="search">
                 <input type="text" name="keyword" id="keyword"
                   onblur="textboxChange(this,false,'Nhập từ khóa tìm kiếm...')"
@@ -88,12 +88,12 @@
                 <i class="bi bi-search"></i>
               </div>
 
-            </li>
+            </li> -->
             <style>
               .search {
                 position: relative;
-                left: 300px;
-                top: 8px;
+                left: 1080px;
+                top: -40px;
              
           
             
@@ -102,7 +102,18 @@
           </ul>
         </div>
       </div>
+
+      
     </nav>
+    <div class="search">
+      <div id="search">
+        <input type="text" name="keyword" id="keyword"
+          onblur="textboxChange(this,false,'Nhập từ khóa tìm kiếm...')"
+          onfocus="textboxChange(this,true,'Tìm kiếm...')" onkeypress="doEnter(event,'keyword');"
+          value="Tìm kiếm...">
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
     <div class="chungnhan row" style="border: 1px gray solid; margin-right: 0;">
       <div class="col-md-2" style="padding-left: 50px; padding-top: 15px;">
         <div class="chungnhan1"><img src="public/img/111-9659.JPG" alt=""></div>

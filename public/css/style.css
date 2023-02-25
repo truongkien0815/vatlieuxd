@@ -468,9 +468,13 @@ body
     display: none;
   }
  .search{
-   margin-left: -310px;
+   /* margin-left: -310px;
    margin-top: -10px;
-   padding: 10px;
+   padding: 10px; */
+   /* margin-top: 50px;
+   margin-left: -1080px; */
+left: 0 !important;
+top: 0 !important;
  
  }
  #search input {
