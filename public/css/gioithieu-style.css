@@ -33,4 +33,36 @@
           
             margin-left: 40px;
          }
+
+         .list-sp>.col-md-9{
+            order: 1;
+            }
+            .list-sp>.col-md-3{
+                order: 2;
+                }
+
+                .gioithieu-tit{
+   
+   
+                    position: relative;
+                    /* margin-top: 5px; */
+                    border-top: 40px solid #5a7295;
+                    border-left: 0px solid transparent;
+                    border-right:0 !important; 
+                    height: 20px;
+                    width: 300px;
+                    left: 0 !important;
+                    
+                    
+                    /* width: 100px;  */
+                    }
+
+                    .gioithieu-tit::after{
+                        content: 'Giới thiệu';
+                        position: absolute;
+                        top: -30px;
+                        right: 0 !important;
+                        left: 0;
+                        color: white;
+                    }
     }

@@ -2,4 +2,14 @@
     .thongtin{
         margin-left: 40px;
     }
+    .list-sp>.col-md-9{
+        order: 1;
+        }
+        .list-sp>.col-md-3{
+            order: 2;
+            }
+            .sp-cungloai-detail> .card{
+                margin-left: 50px;
+                
+                }
 }

@@ -14,7 +14,7 @@
     /* width: 100px;  */
     }
     .gioithieu-tit::after{
-        content: 'Chi tiết tin tuc';
+        content: 'Chi tiết sản phẩm';
         position: absolute;
         top: -30px;
         right: 20px;
@@ -99,25 +99,71 @@
         .gioithieu-tit{
    
    
-          left: 50px;
+          left: 40px;
           
           
         
           }
           .thongtin-detailw > .col-3{
 width: auto;
-margin-left: 50px;
+/* margin-left: 40px; */
           }
           .thongtin-detailw > .col-3> img{
-            width: 280px;
+            width: 100%;
            
                       }
+                      
 .thongtin-sp{
 margin-left: 20px;
 }
 .sp-cungloai-detail> .card{
-margin-left: 50px;
+margin-left: 5px;
+max-width: 40%;
 
 }
+
+.sp-cungloai-detail> .card> img{
+  width: 50%;
+  
+  
+  }
+ 
+
+.list-sp>.col-md-9{
+  order: 1;
+  }
+  .list-sp>.col-md-3{
+      order: 2;
+      }
+
+      
+.gioithieu-tit{
+   
+   
+  position: relative;
+  margin-top: 5px;
+  border-top: 40px solid #5a7295;
+  border-left: 0px solid transparent;
+  border-right: 0 !important;
+  height: 20px;
+  width: 100%;
+  left: 0;
+  
+  /* width: 100px;  */
+  }
+  .gioithieu-tit::after{
+      content: 'Chi tiết sản phẩm';
+      position: absolute;
+      top: -30px;
+      right: 20px;
+      color: white;
+      left: 0;
+  }
+  .sp-cungloai
+  {
+    background-color: #5a7295;
+    color: white;
+  }
+ 
       }
       

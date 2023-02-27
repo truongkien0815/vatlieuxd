@@ -112,5 +112,37 @@ margin-left: 30px;
     {
       margin-left: 20px;
     }
+
+    .list-sp>.col-md-9{
+      order: 1;
+      }
+      .list-sp>.col-md-3{
+          order: 2;
+          }
+
+          
+.gioithieu-tit{
+   
+   
+  position: relative;
+  margin-top: 5px;
+  border-top: 40px solid #5a7295;
+  border-left: 0px solid transparent;
+  border-right: 0 !important; 
+  height: 20px;
+  width: 100%;
+  left: 0;
+  
+  /* width: 100px;  */
+  }
+  .gioithieu-tit::after{
+      content: 'Chi tiết tin tuc';
+      position: absolute;
+      top: -30px;
+      right: 20px;
+      color: white;
+      left: 0;
+  }
+
     }
   

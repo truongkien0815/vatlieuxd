@@ -24,19 +24,35 @@
 
     @media only screen and  (max-width:1000px) {
 
-       
+        .gioithieu-tit::after{
+            content: 'Dịch vụ';
+            position: absolute;
+          
+            left: 0;
+            color: white;
+        }
 .gioithieu-tit{
    
    
     position: relative;
     margin-top: 5px;
-    border-top: 40px solid black;
+    border-top: 40px solid #5a7295;
     border-left: 0px solid transparent;
-    border-right: 20px solid transparent; 
+    border-right: 0  !important; 
     height: 20px;
-    width: 280px;
+    width: 100%;
     
     
-  left: 50px;
+  left: 0;
     }
+    .list-sp{
+        /* display: flex;
+        justify-self: center; */
+    }
+    .list-sp>.col-md-9{
+    order: 1;
+    }
+    .list-sp>.col-md-3{
+        order: 2;
+        }
     }

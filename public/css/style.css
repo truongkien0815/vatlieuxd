@@ -1,123 +1,138 @@
+body {
+    overflow-x: hidden;
 
-
-
-body
-{
-  overflow-x: hidden;
-  
 
 }
-.nav-link{
+.anh3{
+    
+}
+
+.nav-link {
     color: white;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     background: orangered;
     border: 1px solid orangered;
-    
-                  }
 
-.left-titl::after{
+}
+
+.left-titl::after {
     content: ' HỖ TRỢ TRỰC TUYẾN';
     top: 20px;
     left: 50px;
     position: absolute;
     color: white;
 }
-.left-titl3::after{
+
+.left-titl3::after {
     content: ' LIÊN KẾT WEB';
-    top: 25px;
+    top: 735px;
     left: 60px;
     position: absolute;
     color: white;
 }
-.left-titl2::after
-{
+
+.left-titl2::after {
     content: ' SẢN PHẨM NỔI BẬT';
-    top: 20px;
+    top: 380px;
     left: 60px;
     position: absolute;
     color: white;
 }
-.spmain{
+
+.spmain {
     position: relative;
 }
-.spmain::after{
-  
+
+.spmain::after {
+
     content: 'Nhóm sản phẩm chính';
     top: 10px;
     left: 600px;
-   
+
     position: absolute;
     color: white;
 }
-.image-sp-chinh>#formList{
+
+.image-sp-chinh>#formList {
     top: 50px;
     left: 150px;
     position: absolute;
 }
 
-.left-titl{
+.left-titl {
     position: relative;
 }
 
-.image-nhan{
+.image-nhan {
     float: left;
 }
-.titlt{
-   
-   
-position: relative;
-margin-top: 5px;
-border-top: 40px solid #0096c8;
-border-left: 0px solid transparent;
-border-right: 20px solid transparent; 
-height: 20px;
-width: 280px;
+
+.titlt {
 
 
-/* width: 100px;  */
+    position: relative;
+    margin-top: 5px;
+    border-top: 40px solid #0096c8;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    height: 20px;
+    width: 280px;
+
+
+    /* width: 100px;  */
 }
-.titlt::after{
+
+.titlt::after {
     content: 'Thí Nghiệm Kiểm Định XD';
     position: absolute;
     top: -30px;
     right: 20px;
+    left: 0px;
     color: white;
 }
-.titlte::after{
+
+.titlte::after {
     content: 'Thiết bị hóa sinh môi trường';
     position: absolute;
     top: -30px;
     right: 20px;
+    left: 0px;
     color: white;
 }
-.titlta::after{
+
+.titlta::after {
     content: 'Danh mục khác';
     position: absolute;
     top: -30px;
     right: 20px;
+    left: 0px;
     color: white;
 }
-.titlte{
-    position: relative;
-margin-top: 5px;
-border-top: 40px solid red;
-border-left: -10px solid transparent;
-border-right: 20px solid transparent; 
-height: 20px;
-width: 270px;
-}
-.titlta{
-    position: relative;
-margin-top: 5px;
-border-top: 40px solid #0096c8;
-border-left: -10px solid transparent;
-border-right: 20px solid transparent; 
 
-height: 20px;
-width: 280px;
+.titlte {
+    position: relative;
+    margin-top: 5px;
+    border-top: 40px solid red;
+    border-left: -10px solid transparent;
+    border-right: 20px solid transparent;
+    height: 20px;
+    width: 270px;
 }
-.nguon{
+
+.titlta {
+    position: relative;
+    margin-top: 5px;
+    border-top: 40px solid #0096c8;
+    border-left: -10px solid transparent;
+    border-right: 20px solid transparent;
+
+    height: 20px;
+    width: 280px;
+}
+
+.nguon {
     text-align: center;
 }
 
@@ -127,9 +142,9 @@ width: 280px;
 
 
 
- /* slider */
+/* slider */
 
- 
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -138,17 +153,20 @@ body {
     margin: 50px auto;
     padding: 0 70px;
 }
+
 .carousel .carousel-item {
     min-height: 330px;
     text-align: center;
     overflow: hidden;
 }
+
 .carousel .carousel-item .img-box {
     height: 160px;
     width: 100%;
     position: relative;
 }
-.carousel .carousel-item img {  
+
+.carousel .carousel-item img {
     max-width: 100%;
     max-height: 100%;
     display: inline-block;
@@ -158,10 +176,12 @@ body {
     left: 0;
     right: 0;
 }
+
 .carousel .carousel-item h4 {
     font-size: 18px;
     margin: 10px 0;
 }
+
 .carousel .carousel-item .btn {
     color: #333;
     border-radius: 0;
@@ -174,31 +194,40 @@ body {
     margin-top: 5px;
     line-height: 16px;
 }
-.carousel .carousel-item .btn:hover, .carousel .carousel-item .btn:focus {
+
+.carousel .carousel-item .btn:hover,
+.carousel .carousel-item .btn:focus {
     color: #fff;
     background: #000;
     border-color: #000;
     box-shadow: none;
 }
+
 .carousel .carousel-item .btn i {
     font-size: 14px;
     font-weight: bold;
     margin-left: 5px;
 }
+
 .carousel .thumb-wrapper {
     text-align: center;
 }
+
 .carousel .thumb-content {
     padding: 15px;
 }
-.carousel-control-prev, .carousel-control-next {
+
+.carousel-control-prev,
+.carousel-control-next {
     height: 100px;
     width: 40px;
     background: none;
     margin: auto 0;
     background: rgba(0, 0, 0, 0.2);
 }
-.carousel-control-prev i, .carousel-control-next i {
+
+.carousel-control-prev i,
+.carousel-control-next i {
     font-size: 30px;
     position: absolute;
     top: 50%;
@@ -211,28 +240,36 @@ body {
     text-shadow: none;
     font-weight: bold;
 }
+
 .carousel-control-prev i {
     margin-left: -3px;
 }
+
 .carousel-control-next i {
     margin-right: -3px;
 }
+
 .carousel .item-price {
     font-size: 13px;
     padding: 2px 0;
 }
+
 .carousel .item-price strike {
     color: #999;
     margin-right: 5px;
 }
+
 .carousel .item-price span {
     color: #86bd57;
     font-size: 110%;
-}   
+}
+
 .carousel .carousel-indicators {
     bottom: -50px;
 }
-.carousel-indicators li, .carousel-indicators li.active {
+
+.carousel-indicators li,
+.carousel-indicators li.active {
     width: 10px;
     height: 10px;
     margin: 4px;
@@ -240,245 +277,341 @@ body {
     border-color: transparent;
     border: none;
 }
-.carousel-indicators li {   
+
+.carousel-indicators li {
     background: rgba(0, 0, 0, 0.2);
 }
-.carousel-indicators li.active {    
+
+.carousel-indicators li.active {
     background: rgba(0, 0, 0, 0.6);
 }
+
 .star-rating li {
     padding: 0;
 }
+
 .star-rating i {
     font-size: 14px;
     color: #ffc000;
 }
 
- /* slider */
+/* slider */
 
 
- 
 
 
- /* slide */
 
- 
+/* slide */
 
 
- /*  reponsiti*/
- @media only screen and  (max-width:1000px) {
-    .chungnhan1{
+
+
+/*  reponsiti*/
+@media only screen and (max-width:1000px) {
+
+    .chungnhan1 {
         display: none;
     }
-    .chungnhan2{
+
+    .chungnhan2 {
         display: none;
     }
+
     img.avatar {
         margin: 1px 10px 10px 8px;
         max-width: 80px;
         max-height: 80px;
     }
-    .chungnhan1{
+
+    .chungnhan1 {
         text-align: center;
     }
-    .chungnhan2{
+
+    .chungnhan2 {
         text-align: center;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         text-align: center;
     }
-   .scoll{
-    text-align: center;
-   }
- .image-sp-chinh{
-    
- }
- .image-sp-chinh>#formList{
-    top: 10px;
-    left: 10px;
-    position: absolute;
-}
-#list .item{
-width: 90px;
-height: 90px;
-}
 
-.list-sp{
- text-align: center;
-}
-.sp-main>img{
-   width: 100%;
-   
-   
-}
-.left-titl{
-    text-align: center;
-}
-.thongtin-detailw{
-    text-align: center;
-}
+    .scoll {
+        text-align: center;
+    }
 
-.spmain{
-    position: relative;
-}
-.spmain::after{
-  
-    content: 'Nhóm sản phẩm chính';
-    top: -2px;
-    left: 140px;
-   font-size: 10px;
-    position: absolute;
-    color: white;
-}
+    .image-sp-chinh {}
 
-.direction{
-text-align: center;
-position: absolute;
-left: 600px;
-top: 100px;
-background: black;
-height: 300px;
-width: 300px;
-}
-.direction button{
-font-family: cursive;
-font-weight: bold;
-background-color: #ffffff44;
-border:none;
-width:50px;
-height:50px;
-border-radius: 50%;
-transition: 0.5s;
-margin:0 10px;
-}
-.direction button:hover{
-background-color: #ffffff;
-}
+    .image-sp-chinh>#formList {
+        top: 10px;
+        left: 10px;
+        position: absolute;
+    }
+
+    #list .item {
+        width: 90px;
+        height: 90px;
+    }
+
+    .list-sp {
+        text-align: center;
+    }
+
+    .sp-main>img {
+        width: 100%;
 
 
+    }
+
+    .left-titl {
+        text-align: center;
+    }
+
+    .thongtin-detailw {
+        text-align: center;
+    }
+
+    .spmain {
+        position: relative;
+    }
+
+    .spmain::after {
+
+        content: 'Nhóm sản phẩm chính';
+        top: -2px;
+        left: 140px;
+        font-size: 10px;
+        position: absolute;
+        color: white;
+    }
+
+    .direction {
+        text-align: center;
+        position: absolute;
+        left: 600px;
+        top: 100px;
+        background: black;
+        height: 300px;
+        width: 300px;
+    }
+
+    .direction button {
+        font-family: cursive;
+        font-weight: bold;
+        background-color: #ffffff44;
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transition: 0.5s;
+        margin: 0 10px;
+    }
+
+    .direction button:hover {
+        background-color: #ffffff;
+    }
 
 
-    
-    .container-fluid{
-       
-        
+
+
+
+    .container-fluid {
+
+
         background-image: none !important;
         object-fit: contain;
         color: black;
-        
-     }
-     .nav-item{
-        background: red;
-     }
-     .nav-link{
-       
-     }
-     .text-white {
-        --bs-text-opacity: 1;
-        color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+
     }
-    .slick-slide img
-    {
+
+    .nav-item {
+        background: red;
+    }
+
+    .nav-link {}
+
+    .text-white {
+        --bs-text-opacity: 1;
+        color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    }
+
+    .slick-slide img {
         max-width: 100%;
         max-height: 100%;
     }
+
     .slider {
-     
+
         height: 100px;
         margin: auto;
         overflow: hidden;
         position: absolute;
         width: 400px;
     }
-    .titlt{
-   
-   
+
+    .titlt {
+
+
+        position: relative;
+        /* margin-top: 5px; */
+        border-top: 40px solid #5a7295;
+        border-left: 0px solid transparent;
+        border-right: 0 !important;
+        height: 20px;
+        left: 0 !important;
+        width: 100%;
+
+
+
+    }
+
+    .titlte {
+        position: relative;
+        /* margin-top: 5px; */
+        border-top: 40px solid #5a7295;
+        border-left: -10px solid transparent;
+        border-right: 0 !important;
+        height: 20px;
+        width: 100%;
+        left: 0 !important;
+    }
+
+    .titlta {
         position: relative;
         margin-top: 5px;
-        border-top: 40px solid #0096c8;
-        border-left: 0px solid transparent;
-        border-right: 20px solid transparent; 
-        height: 20px;
-        left: 50px;
-        width: 280px;
-        
-        
-        
-        }
-        .titlte{
-            position: relative;
-            margin-top: 5px;
-            border-top: 40px solid red;
-            border-left: -10px solid transparent;
-            border-right: 20px solid transparent; 
-            height: 20px;
-            width: 270px;
-            left: 50px;
-        }
-
-        .titlta{
-            position: relative;
-        margin-top: 5px;
-        border-top: 40px solid #0096c8;
+        border-top: 40px solid #5a7295;
         border-left: -10px solid transparent;
-        border-right: 20px solid transparent; 
-        left: 50px;
+        border-right: 0 !important;
+        /* left: 50px; */
         height: 20px;
-        width: 280px;
-        }
-
-        .left-titl3::after{
-            content: ' LIÊN KẾT WEB';
-            top: 25px;
-            left: 100px;
-            position: absolute;
-            color: white;
-        }
-        .left-titl2::after
-        {
-            content: ' SẢN PHẨM NỔI BẬT';
-            top: 20px;
-            left: 100px;
-            position: absolute;
-            color: white;
-        }
-    .thongtin{
-       
-       margin-left: 50px;
+        width: 100%;
     }
-    body
-{
+
+    .left-titl3::after {
+        content: ' LIÊN KẾT WEB';
+        top: 735px;
+        left: 100px;
+        position: absolute;
+        color: white;
+    }
+
+    .left-titl2::after {
+        content: ' SẢN PHẨM NỔI BẬT';
+        top: 375px;
+        left: 100px;
+        position: absolute;
+        color: white;
+    }
+
+    .thongtin {
+
+        margin-left: 10px;
+    }
+
+    body {}
+
+    body {
+
+        overflow-x: hidden;
 
 
-}
+    }
 
-body
-{
-   
-  overflow-x: hidden;
-
-
-}
-  /* .img-responsive{
+    /* .img-responsive{
     max-width: 100%;
     height: auto;
     display: block;
   } */
-  .f{
-    display: none;
-  }
- .search{
-   /* margin-left: -310px;
-   margin-top: -10px;
-   padding: 10px; */
-   /* margin-top: 50px;
-   margin-left: -1080px; */
-left: 0 !important;
-top: 0 !important;
- 
- }
- #search input {
-    width: auto;
-   
- }
- }
+    .f {
+        display: none;
+    }
+
+    .search {
+     
+        left: 0 !important;
+        top: 0 !important;
+
+    }
+    #search input {
+        width: 300px;
+        max-width: 300px;
+    }
+    .search {
+        padding: 10px;
+    }
+
+    .list-sp>.type1 {
+        order: 1;
+    }
+
+    .list-sp>.type2 {
+        order: 2;
+    }
+
+    .list-sp>.type3 {
+        order: 3;
+    }
+
+    .list-sp>.type {
+        order: 4;
+    }
+
+    .carousel .carousel-item img {
+        object-fit: contain;
+
+    }
+
+    .carousel {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-titl::after {
+        content: ' HỖ TRỢ TRỰC TUYẾN';
+        top: 20px;
+        left: 60px;
+        position: absolute;
+        color: white;
+    }
+    .chungnhan{
+        border: 0 !important;
+    }
+    .anh3{
+        display: none;
+    }
+    .gg{
+        top: 0 !important;
+        margin-top: -30px;
+        object-fit: contain;
+       max-height: 70%;
+        /* margin-top: 100px; */
+    }
+    .left-titl
+    {
+       
+    }
+    .chungnhan>.col-md-7{
+        height: 160px;
+        top: -50px;
+      
+      }
+
+      .thongtin-detailw>{
+     
+      
+      }
+     
+      .thongtin-detailw>{
+       float: left;
+      }
+
+      .menufooter{
+        display: none;
+      }
+      .menufooter1{
+        display: none;
+        padding: 0 !important;
+      }
+      .nguon{
+        display: none;
+      }
+}

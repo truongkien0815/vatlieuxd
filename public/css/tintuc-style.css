@@ -24,3 +24,58 @@
         color: white;
     }
    
+
+
+    @media only screen and  (max-width:1000px) {
+        .tailieu-tit{
+   
+   
+            position: relative;
+            margin-top: 5px;
+            border-top: 40px solid rgb(90, 114, 149);
+            border-left: 0px solid transparent;
+            border-right: 0 !important; 
+         
+            height: 20px;
+            width: 100%;
+            
+            
+           
+            }
+             /* width: 100px;  */
+            .tailieu-tit::after{
+                content: 'Tin tức';
+                font-size: 16px;
+                position: absolute;
+                top: -30px;
+                left: 100px;
+                color: white;
+            }
+           
+        
+    
+        .list-sp>.col-md-9{
+          order: 1;
+          }
+          .list-sp>.col-md-3{
+              order: 2;
+              }
+
+
+              .thongtin-detailw>.col-2>img
+              {
+                width: 100%;
+                height: auto;
+              }
+              .thongtin-detailw>.col-2
+              {
+                width: 35%;
+                height: auto;
+              }
+              .thongtin-detailw>.col-10
+              {
+                width: 65%;
+              
+                height: auto;
+              }
+            }
